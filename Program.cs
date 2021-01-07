@@ -15,10 +15,6 @@ namespace Array
             string [] nomes = new string[5];
             int [] idades = new int[5];
 
-            // nomes[0] = "Juan0";
-            // nomes[1] = "Juan1";
-            // nomes[2] = "Juan2";
-            // Console.WriteLine("Nome: "+nomes[2]);
 
             for(var contador = 0; contador < 5; contador++){
                 Console.WriteLine($"Digite o nome do {contador + 1}º nome: ");
